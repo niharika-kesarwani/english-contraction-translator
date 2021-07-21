@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contraction translator</title>
+    <title>contractions translator</title>
+    <link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-    Hi English contractors!
+    <header class="header">
+        <h1 class="header-text">english contraction translator</h1>
+    </header>
+    
+    <textarea id="input" class="container-center" placeholder="Enter any text in English and I will change it to Banana Language!"></textarea>
+    
+    <div class="container-center"><button id="button" class="button-box">Expand the contractions</button></div>
+
+    <div id="output-info" class="container-center">The expanded text will be displayed here: 👇 </div>
+    <div id="output" class="container-center"></div>
+    
+    <footer class="footer header">
+        <div class="footer-header">about</div>
+        <div class="footer-text container-center">Translates the English contraction forms (can't, I'm etc) to the expanded forms. 
+            A contraction is a shortened form of one or two words (one of which is usually a verb). 
+            In a contraction, an apostrophe takes the place of the missing letter or ...</div>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
