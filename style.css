@@ -63,14 +63,28 @@ body{
 
 .footer{
     background-color: var(--primarycolor);
-    padding: 0.5rem 0.75rem 1rem 1rem;
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
     text-align: center;
-    height: 100px;
     color: black;
 }
 
 .footer-header{
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
     font-weight: bolder;
     font-size: x-large;
+}
+
+.footer-ul-links {
+    padding-left: 0px;
+}
+
+.lists-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer-links {
+    color: #000;
+    text-decoration: none;
+    padding-left: 0px;
 }
